@@ -1,0 +1,178 @@
+*{
+	margin: 0px;
+    padding: 0px;    
+    -webkit-box-sizing: border-box;
+	
+}
+body{
+
+}
+.container-top{
+	background: #282828;
+	padding: 15px 20px;
+}
+.container-top h1{
+	font-size: 30px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-top h1 span{
+	padding: 10px;
+    color: #12b17e;
+    font-size: 12px;
+
+}
+.container-bottom{
+	padding: 0px !important;
+}
+.flex{
+	display: flex;
+    padding: 35px;
+}
+
+.nave{
+	padding: 0px;
+    margin: 0px;
+}
+.nave nav{
+
+}
+.nave nav ul{
+	display: flex;
+    justify-content: space-around;
+
+}
+.nave nav ul li{
+	transition: all .5s;
+	color: black;
+	list-style: none;
+	
+    
+}
+.nave nav ul li:hover a{
+	border-bottom: 3px solid #29792c;
+
+}
+
+.nave nav ul li a{
+	border-bottom: 3px solid transparent;
+    padding: 15px 10px;
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.main-body{
+	padding-bottom: 50px;
+}
+.main-body h1{
+	margin-top: 40px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    color: #000000;
+    font-weight: bold;
+    padding: 10px;
+
+}
+.main-body p{
+	    text-align: center;
+}
+.main-body.container{
+
+}
+.Mennu{
+	width:20%;
+}
+.Mennu ul{
+	padding: : 10px;
+
+}
+.Mennu ul li{
+	list-style: none;
+	padding: 5px 10px;
+	color: black;
+	font-family: 'Roboto', sans-serif;
+
+
+}
+.Mennu ul li a{
+	display: block;
+	color: black;
+	text-decoration: none;
+	font-weight: 800px;
+
+
+}
+.Mennu ul li a:hover{
+	text-decoration: underline;
+	letter-spacing: 2px;
+	transition: all 0.4s;
+
+}
+
+.Mennu ul li:first-child{
+	padding-bottom: 15px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.MainGallery{
+	width:80%;
+}
+.MainGallery .Gallery {
+
+    width: 33.33%;
+    flex-basis: 33%;
+    padding: 5px 10px;
+    float: left;
+    transition: all .5s;
+}
+.Gallery img{
+	border-radius: 10px;
+    box-shadow: 13px 13px 0 -3px #EDEDED;
+    transition: all 0.4s ease-in-out;
+
+}
+.Gallery:hover img{
+	box-shadow: -13px -13px 0 -3px #EDEDED;
+}
+.Gallery h3{
+	color: #0000009e;
+    line-height: 35px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+.Gallery:hover h3{
+	letter-spacing: 2px;
+	transition: all 0.4s;
+
+
+}
+footer{
+	padding: 40px 0px;
+    background: #F0F0F0;
+}
+.footer-part{
+	text-align: center;
+    width: 33.33%;
+    padding: 45px;
+}
+.footer-part h1{
+    padding: 15px 0px;
+    color: #000000cc;
+    font-weight: 100;
+}
+.footer-part h1 span{
+    font-size: 22px;
+	color: black;
+    font-weight: bold;
+    
+}
+.footer-part p{
+
+    line-height: 1.5;
+    font-size: 15px;
+}
